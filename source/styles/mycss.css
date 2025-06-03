@@ -1,0 +1,98 @@
+
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(321deg, #2e2380 10%, #0f0f0f 100%);  
+}
+
+p{
+    color:  white;
+}
+.collapse .navbar-nav .nav-link.active{
+    color: white;
+}
+.collapse .navbar-nav .nav-link{
+     color: white;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.container-fluid .navbar-toggler{
+    background-color: white;
+}
+
+.sidebar{
+    color: aliceblue;
+}
+.row .col-lg-4 .card{
+    background: linear-gradient(2344deg, #2e2380 10%, #0f0f0f 100%);
+    color: white;
+}
+
+.d-block .row .slide-text{
+    color: aliceblue;
+    margin: auto auto;
+    padding-right: 70px;
+}
+footer{
+    background: white;
+}
+.container-fluid .row .footer-text{
+    color: black;
+    margin: auto auto;
+}
+
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim{
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+.button-dec{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
